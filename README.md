@@ -8,6 +8,7 @@ install plugin yang dibutuhkan.
 ```bash
 claude plugin marketplace add sanzuke/claude-plugins
 claude plugin install sop-projek-baru@qti-plugins
+claude plugin install qa-automation@qti-plugins
 ```
 
 Kalau install summary menyebut `Run /reload-plugins to activate.`, jalankan itu.
@@ -16,7 +17,18 @@ Skill dari plugin di-namespace dengan nama plugin:
 
 ```
 /sop-projek-baru:sop-projek-baru
+/qa-automation:qa-automation
 ```
+
+## Plugin yang tersedia
+
+| Plugin | Isinya |
+|---|---|
+| `sop-projek-baru` | SOP dokumentasi projek: scaffold `docs/adr`, `docs/domain`, `docs/runbook`, `CHANGELOG.md`, dan menjaga ADR tetap hidup seiring projek berkembang. |
+| `qa-automation` | SOP QA automation: scaffold Playwright (TypeScript) + workflow CI, konvensi test anti-rapuh, kebijakan flaky test, dan pelaporan hasil run ke Huly Test Management. |
+
+Kedua skill aktif otomatis dari konteks percakapan — perintah slash di atas hanya
+cadangan manual.
 
 ## Supaya terpasang otomatis untuk tim
 

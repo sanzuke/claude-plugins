@@ -16,6 +16,14 @@
       "category": "engineering",
       "tags": ["sop", "dokumentasi", "adr", "onboarding"],
       "author": { "name": "QTI Engineering" }
+    },
+    {
+      "name": "qa-automation",
+      "source": "./plugins/qa-automation",
+      "description": "SOP QA automation: scaffold Playwright (TypeScript), konvensi test anti-rapuh, kebijakan flaky test, dan pelaporan hasil run ke Huly Test Management.",
+      "category": "engineering",
+      "tags": ["qa", "testing", "playwright", "e2e", "huly"],
+      "author": { "name": "QTI Engineering" }
     }
   ],
   "renames": {}

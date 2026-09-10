@@ -1,0 +1,9 @@
+{
+  "name": "qa-automation",
+  "displayName": "QA Automation Engineer",
+  "description": "SOP QA automation: scaffold Playwright (TypeScript), konvensi test yang tidak rapuh, kebijakan flaky test, dan pelaporan hasil run ke Huly Test Management.",
+  "author": {
+    "name": "QTI Engineering"
+  },
+  "keywords": ["qa", "testing", "playwright", "e2e", "automation", "huly"]
+}
