@@ -1,0 +1,22 @@
+{
+  "name": "qti-plugins",
+  "owner": {
+    "name": "QTI Engineering",
+    "email": "engineering@example.com"
+  },
+  "description": "Plugin internal QTI — SOP dan workflow standar tim engineering.",
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "sop-projek-baru",
+      "source": "./plugins/sop-projek-baru",
+      "description": "SOP dokumentasi projek: scaffold docs/adr, docs/domain, CHANGELOG, dan menjaga ADR tetap hidup seiring projek berkembang.",
+      "category": "engineering",
+      "tags": ["sop", "dokumentasi", "adr", "onboarding"],
+      "author": { "name": "QTI Engineering" }
+    }
+  ],
+  "renames": {}
+}

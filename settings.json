@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "qti-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "ORG-KAMU/claude-plugins"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "sop-projek-baru@qti-plugins": true
+  }
+}
