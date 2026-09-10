@@ -1,0 +1,21 @@
+<?php
+
+use App\Livewire\__STUDLY__;
+use Livewire\Livewire;
+
+// Feature test: buktikan Action, validasi, dan authorization benar-benar tersambung.
+// Untuk logika bisnis murni tanpa Livewire/HTTP, test Action-nya langsung di
+// tests/Unit/Actions/__STUDLY__ActionTest.php.
+
+it('menampilkan component __KEBAB__', function () {
+    Livewire::test(__STUDLY__::class)
+        ->assertOk();
+});
+
+it('menolak submit tanpa data valid', function () {
+    // Isi rules() di component dulu, baru test ini berlaku — rules() kosong
+    // membuat Livewire melempar error "Missing rules", bukan assertHasErrors().
+    Livewire::test(__STUDLY__::class)
+        ->call('save')
+        ->assertHasErrors();
+})->todo();

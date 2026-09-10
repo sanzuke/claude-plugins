@@ -24,6 +24,14 @@
       "category": "engineering",
       "tags": ["qa", "testing", "playwright", "e2e", "huly"],
       "author": { "name": "QTI Engineering" }
+    },
+    {
+      "name": "laravel-fullstack",
+      "source": "./plugins/laravel-fullstack",
+      "description": "SOP developer PHP fullstack Laravel: konvensi Eloquent/Action/Livewire/Blade/Alpine, anti-pattern yang wajib dihindari, dan scaffold vertical-slice fitur baru dengan test Pest.",
+      "category": "engineering",
+      "tags": ["php", "laravel", "livewire", "pest", "fullstack"],
+      "author": { "name": "QTI Engineering" }
     }
   ],
   "renames": {}

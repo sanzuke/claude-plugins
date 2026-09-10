@@ -9,6 +9,7 @@ install plugin yang dibutuhkan.
 claude plugin marketplace add sanzuke/claude-plugins
 claude plugin install sop-projek-baru@qti-plugins
 claude plugin install qa-automation@qti-plugins
+claude plugin install laravel-fullstack@qti-plugins
 ```
 
 Kalau install summary menyebut `Run /reload-plugins to activate.`, jalankan itu.
@@ -18,6 +19,7 @@ Skill dari plugin di-namespace dengan nama plugin:
 ```
 /sop-projek-baru:sop-projek-baru
 /qa-automation:qa-automation
+/laravel-fullstack:laravel-fullstack
 ```
 
 ## Plugin yang tersedia
@@ -26,8 +28,9 @@ Skill dari plugin di-namespace dengan nama plugin:
 |---|---|
 | `sop-projek-baru` | SOP dokumentasi projek: scaffold `docs/adr`, `docs/domain`, `docs/runbook`, `CHANGELOG.md`, dan menjaga ADR tetap hidup seiring projek berkembang. |
 | `qa-automation` | SOP QA automation: scaffold Playwright (TypeScript) + workflow CI, konvensi test anti-rapuh, kebijakan flaky test, dan pelaporan hasil run ke Huly Test Management. |
+| `laravel-fullstack` | SOP developer PHP fullstack Laravel (Livewire + Blade + Alpine + Pest): konvensi Eloquent/Action/Livewire, anti-pattern yang wajib dihindari, dan scaffold vertical-slice fitur baru. |
 
-Kedua skill aktif otomatis dari konteks percakapan — perintah slash di atas hanya
+Ketiga skill aktif otomatis dari konteks percakapan — perintah slash di atas hanya
 cadangan manual.
 
 ## Supaya terpasang otomatis untuk tim

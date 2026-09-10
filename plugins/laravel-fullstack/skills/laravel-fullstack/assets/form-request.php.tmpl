@@ -1,0 +1,29 @@
+<?php
+
+namespace App\Http\Requests;
+
+use Illuminate\Foundation\Http\FormRequest;
+
+class __STUDLY__Request extends FormRequest
+{
+    public function authorize(): bool
+    {
+        // Isi eksplisit sesuai kebutuhan (Policy/Gate) — jangan `return true;` asal
+        // supaya validasi jalan. Authorization dan validasi adalah dua hal berbeda.
+        return false;
+    }
+
+    public function rules(): array
+    {
+        return [
+            // 'field' => ['required', 'string'],
+        ];
+    }
+
+    public function messages(): array
+    {
+        return [
+            //
+        ];
+    }
+}

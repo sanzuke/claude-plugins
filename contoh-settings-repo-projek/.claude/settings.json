@@ -9,6 +9,7 @@
   },
   "enabledPlugins": {
     "sop-projek-baru@qti-plugins": true,
-    "qa-automation@qti-plugins": true
+    "qa-automation@qti-plugins": true,
+    "laravel-fullstack@qti-plugins": true
   }
 }

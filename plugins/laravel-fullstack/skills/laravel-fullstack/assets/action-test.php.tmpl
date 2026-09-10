@@ -1,0 +1,12 @@
+<?php
+
+use App\Actions\__STUDLY__Action;
+
+// Unit test: Action ditest sebagai class PHP biasa, tanpa HTTP atau Livewire.
+// Tambah RefreshDatabase di pest.php/Pest.php kalau Action ini menyentuh DB.
+
+it('menjalankan __STUDLY__Action', function () {
+    $action = new __STUDLY__Action();
+
+    expect($action())->not->toBeNull();
+})->todo();

@@ -1,0 +1,9 @@
+{
+  "name": "laravel-fullstack",
+  "displayName": "Laravel Fullstack Engineer",
+  "description": "SOP developer PHP fullstack Laravel — konvensi Eloquent/Action/Livewire/Blade/Alpine, anti-pattern yang wajib dihindari, dan scaffold vertical-slice fitur baru dengan test Pest.",
+  "author": {
+    "name": "QTI Engineering"
+  },
+  "keywords": ["php", "laravel", "livewire", "blade", "alpine", "pest", "fullstack"]
+}

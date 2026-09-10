@@ -1,0 +1,51 @@
+<?php
+
+namespace App\Livewire;
+
+use App\Actions\__STUDLY__Action;
+use Livewire\Attributes\Computed;
+use Livewire\Component;
+
+class __STUDLY__ extends Component
+{
+    // Public property = state yang perlu tersinkron ke browser.
+    // Jangan tambah public property untuk nilai yang bisa dihitung dari yang lain —
+    // pakai computed property (lihat __CAMEL__Summary() di bawah).
+
+    public function mount(): void
+    {
+        // Authorization di sini SEBELUM component menampilkan/menerima input apa pun.
+        // Contoh: $this->authorize('viewAny', Model::class);
+    }
+
+    public function rules(): array
+    {
+        return [
+            // 'field' => ['required', 'string'],
+        ];
+    }
+
+    public function save(__STUDLY__Action $action): void
+    {
+        $validated = $this->validate();
+
+        // Authorization ulang di sini kalau aksi ini mengubah data —
+        // jangan andalkan hanya mount() untuk aksi yang mengubah state.
+        $action();
+
+        $this->dispatch('__KEBAB__-saved');
+    }
+
+    #[Computed]
+    public function __CAMEL__Summary(): mixed
+    {
+        // Nilai turunan yang mahal dihitung ulang tiap render taruh di sini,
+        // bukan sebagai public property terpisah.
+        return null;
+    }
+
+    public function render()
+    {
+        return view('livewire.__KEBAB__');
+    }
+}
