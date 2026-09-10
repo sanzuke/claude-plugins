@@ -1,0 +1,7 @@
+{
+  "name": "sop-projek-baru",
+  "displayName": "SOP Projek Baru",
+  "description": "SOP dokumentasi projek standar perusahaan — struktur docs/, ADR, glossary, dan aturan menjaganya tetap hidup.",
+  "author": { "name": "QTI Engineering" },
+  "keywords": ["sop", "dokumentasi", "adr", "arsitektur"]
+}

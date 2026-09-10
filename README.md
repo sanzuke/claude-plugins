@@ -6,7 +6,7 @@ install plugin yang dibutuhkan.
 ## Untuk pengguna
 
 ```bash
-claude plugin marketplace add ORG-KAMU/claude-plugins
+claude plugin marketplace add sanzuke/claude-plugins
 claude plugin install sop-projek-baru@qti-plugins
 ```
 

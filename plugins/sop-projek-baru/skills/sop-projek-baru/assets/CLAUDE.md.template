@@ -1,0 +1,43 @@
+# <Nama Projek>
+
+<Satu-dua kalimat: ini apa, untuk siapa.>
+
+## Stack
+
+- <bahasa / framework + versi>
+
+## Perintah
+
+```bash
+# install
+# dev
+# test
+# lint
+```
+
+## Dokumentasi
+
+- Alur bisnis: @docs/domain/business-flow.md
+- Istilah domain: @docs/domain/glossary.md
+- Keputusan arsitektur: lihat `docs/adr/`, baca yang statusnya Accepted
+
+## Konvensi
+
+Tulis hanya yang menyimpang dari default tool atau kebiasaan umum. Hal yang bisa
+disimpulkan sendiri dari codebase tidak perlu ditulis di sini.
+
+-
+
+## Pitfall
+
+Hal yang sudah pernah bikin salah dan tidak kelihatan dari kode.
+
+-
+
+## Aturan
+
+- Ketika mengambil keputusan arsitektur atau teknologi, tulis ADR di `docs/adr/`
+  sebelum implementasi. Pakai skill `sop-projek-baru`.
+- Jangan edit ADR lama. Kalau digantikan, buat ADR baru dan ubah status yang lama
+  jadi `Superseded by ADR-XXXX`.
+- Kalau alur bisnis berubah, perbarui `docs/domain/business-flow.md` di PR yang sama.

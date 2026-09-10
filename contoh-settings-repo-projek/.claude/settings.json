@@ -3,7 +3,7 @@
     "qti-plugins": {
       "source": {
         "source": "github",
-        "repo": "ORG-KAMU/claude-plugins"
+        "repo": "sanzuke/claude-plugins"
       }
     }
   },
